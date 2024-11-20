@@ -1,0 +1,28 @@
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+
+STDOUT: Mongo en ejecución...
+
+STDOUT: Mongo ha terminado.
+

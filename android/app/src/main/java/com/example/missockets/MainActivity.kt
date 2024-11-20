@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main) // Infla el diseño desde el archivo XML
+        setContentView(R.layout.activity_main)
 
         fetchScripts()
         setupSocketListeners()
@@ -90,13 +90,12 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
-
             val logsStderrButton = Button(this).apply {
                 text = "Logs Error"
                 setOnClickListener {
                     val logs = scriptLogs[script.name]?.filter { it.startsWith("STDERR") }
                         ?.joinToString("\n") ?: "Sin logs de error"
-                    showLogsActivity("Logs de error - ${script.name}", script.name, logs)
+                    showErrorLogsActivity("Logs de error - ${script.name}", script.name, logs)
                 }
             }
 
@@ -111,6 +110,13 @@ class MainActivity : ComponentActivity() {
 
             scriptsContainer.addView(scriptLayout)
         }
+    }
+
+    private fun showErrorLogsActivity(title: String, scriptName: String, logs: String) {
+        val intent = Intent(this, ErrorLogsActivity::class.java)
+        intent.putExtra("logs", logs)
+        intent.putExtra("scriptName", scriptName)
+        startActivity(intent)
     }
 
     private fun controlScript(scriptName: String, action: String) {
@@ -151,10 +157,9 @@ class MainActivity : ComponentActivity() {
     private fun showLogsActivity(title: String, scriptName: String, logs: String) {
         val intent = Intent(this, LogsActivity::class.java)
         intent.putExtra("logs", logs)
-        intent.putExtra("scriptName", scriptName) // Pasa el nombre del script
+        intent.putExtra("scriptName", scriptName)
         startActivity(intent)
     }
-
 
     private fun setupSocketListeners() {
         socket.on("scripts_update", onScripts)
@@ -183,25 +188,21 @@ class MainActivity : ComponentActivity() {
             val scriptName = it.getString("scriptName")
             val log = it.getString("log")
             runOnUiThread {
-                // Agregar el log a la lista de logs del script
                 scriptLogs.getOrPut(scriptName) { mutableListOf() }.add("STDOUT: $log")
             }
         }
     }
 
-    // Agregar el log de stderr de manera coherente en el mapa de logs
     private val onLogStderr = Emitter.Listener { args ->
         val data = args[0] as? JSONObject
         data?.let {
             val scriptName = it.getString("scriptName")
-            val log = it.getString("log")
+            val log = it.getString("errorLog")
             runOnUiThread {
-                // Agregar el log de error de manera coherente
                 scriptLogs.getOrPut(scriptName) { mutableListOf() }.add("STDERR: $log")
             }
         }
     }
-
 
     override fun onDestroy() {
         super.onDestroy()

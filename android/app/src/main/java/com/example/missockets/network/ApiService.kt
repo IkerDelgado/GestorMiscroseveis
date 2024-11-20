@@ -23,9 +23,13 @@ interface ApiService {
         @Path("scriptName") scriptName: String
     ): Call<ScriptStatus>
 
-    // Obtener los logs guardados de un script específico
-    @GET("/scripts/{scriptName}/logs")
-    fun getScriptLogs(
+    @GET("/scripts/{scriptName}/logsActividad")
+    fun getScriptLogsActividad(
         @Path("scriptName") scriptName: String
-    ): Call<Map<String, String>> // Retorna los logs en un mapa con claves "stdout" y "stderr"
+    ): Call<Map<String, String>> // Retorna un mapa con la clave "logs"
+    @GET("/scripts/{scriptName}/logsError")
+    fun getScriptErrorLogs(
+        @Path("scriptName") scriptName: String
+    ): Call<Map<String, String>> // Retorna un mapa con la clave "logs"
+
 }

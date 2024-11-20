@@ -33,6 +33,12 @@
             android:label="Logs de Script"
             android:theme="@style/Theme.MisSockets">
         </activity>
+        <activity
+            android:name=".ErrorLogsActivity"
+            android:exported="true"
+            android:label="Logs de Error Script"
+            android:theme="@style/Theme.MisSockets">
+        </activity>
 
     </application>
 

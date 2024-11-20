@@ -1,0 +1,12 @@
+STDOUT: Data en ejecución...
+
+STDOUT: Data ha terminado.
+
+STDOUT: Data en ejecución...
+
+STDOUT: Data ha terminado.
+
+STDOUT: Data en ejecución...
+
+STDOUT: Data ha terminado.
+

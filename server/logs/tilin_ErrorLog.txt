@@ -1,0 +1,128 @@
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
+STDERR: Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+STDERR: D:\Iker\M09\TascaChunga\scripts\tilin\index.js:8
+    throw error;  // Lanza el error
+    ^
+
+Error: ¡Este es un error simulado!
+    at Timeout._onTimeout (D:\Iker\M09\TascaChunga\scripts\tilin\index.js:6:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+
+Node.js v20.18.0
+
