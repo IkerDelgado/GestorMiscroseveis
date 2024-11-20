@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvScriptName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nombre del Script"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar" />
+
+    <Button
+        android:id="@+id/btnLogsStdout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logs Salida" />
+
+    <Button
+        android:id="@+id/btnLogsStderr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logs Error" />
+</LinearLayout>

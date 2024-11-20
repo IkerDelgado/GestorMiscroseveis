@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba Socket.io</title>
+</head>
+<body>
+    <h1>Prueba Socket.io</h1>
+    <ul id="logs"></ul>
+
+    <!-- Incluir la librería de socket.io desde la CDN -->
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script>
+        // Conectar al servidor socket.io en el puerto 3000
+        const socket = io('http://localhost:3000');
+        const logsElement = document.getElementById('logs');
+
+        socket.on('connect', () => {
+            console.log('Conectado al servidor Socket.io');
+        });
+
+        // Escuchar eventos de logs estándar
+        socket.on('log', (data) => {
+            const logItem = document.createElement('li');
+            logItem.textContent = `${data.script}: LOG - ${data.message}`;
+            logsElement.appendChild(logItem);
+        });
+
+        // Escuchar eventos de logs de error
+        socket.on('error', (data) => {
+            const logItem = document.createElement('li');
+            logItem.textContent = `${data.script}: ERROR - ${data.message}`;
+            logsElement.appendChild(logItem);
+        });
+
+        // Escuchar cambios en el estado del script
+        socket.on('status', (data) => {
+            const logItem = document.createElement('li');
+            logItem.textContent = `${data.script}: STATUS - ${data.message}`;
+            logsElement.appendChild(logItem);
+        });
+
+        socket.on('disconnect', () => {
+            console.log('Desconectado del servidor Socket.io');
+        });
+    </script>
+</body>
+</html>
