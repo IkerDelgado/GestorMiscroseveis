@@ -16,7 +16,7 @@ const io = new Server(server);
 
 const scriptsData = {};
 
-// Middleware para logging
+// Middleware para logginga
 app.use(cors());
 
 
