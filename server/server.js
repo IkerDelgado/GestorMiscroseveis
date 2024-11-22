@@ -128,6 +128,7 @@ app.post('/scripts/:scriptName/:action', (req, res) => {
             io.emit('log_stderr', { scriptName, errorLog });
 
             // Escribir el log de error al archivo
+            
             errorLogStream.write(`STDERR: ${errorLog}\n`);
         });
 
