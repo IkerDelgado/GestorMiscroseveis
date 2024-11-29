@@ -78,3 +78,13 @@ STDOUT: Prueba ha terminado.
 
 STDOUT: Prueba ha terminado.
 
+STDOUT: Prueba en ejecución...
+
+STDOUT: Prueba ha terminado.
+
+STDOUT: Prueba ha terminado.
+
+STDOUT: Prueba ha terminado.
+
+STDOUT: Prueba ha terminado.
+
